@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: install
-      run: ./install.sh
+      run: ./${GITHUB_WORKSPACE}/install.sh
     - name: compile
-      run: ./compile.sh
+      run: ./${GITHUB_WORKSPACE}/compile.sh
 
