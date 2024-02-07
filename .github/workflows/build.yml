@@ -13,10 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: echo 
-      run: pwd && ls
     - name: install
-      run: chmod +x install.sh && ./install.sh
+      run: sudo chmod +x install.sh && sudo ./install.sh
     - name: compile
-      run: chmod +x compile.sh && ./compile.sh
+      run: sudo chmod +x compile.sh && sudo ./compile.sh
 
