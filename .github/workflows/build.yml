@@ -16,7 +16,7 @@ jobs:
     - name: echo 
       run: pwd && ls
     - name: install
-      run: chmod +x install.sh ./install.sh
+      run: chmod +x install.sh && ./install.sh
     - name: compile
-      run: chmod +x compile.sh ./compile.sh
+      run: chmod +x compile.sh && ./compile.sh
 
