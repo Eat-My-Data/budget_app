@@ -16,7 +16,7 @@ jobs:
     - name: echo 
       run: pwd && ls
     - name: install
-      run: ./${GITHUB_WORKSPACE}/install.sh
+      run: .${GITHUB_WORKSPACE}/install.sh
     - name: compile
-      run: ./${GITHUB_WORKSPACE}/compile.sh
+      run: .${GITHUB_WORKSPACE}/compile.sh
 
